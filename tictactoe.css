@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d1bce3;
+    text-align: center;
+
+}
+nav{
+    background-color:#9f75c4 ;
+    color:white;
+    height: 75px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 12px;
+    border:3px solid black;
+    font-family: 'Tektur', sans-serif;
+}
+
+
+nav ul{
+    list-style-type: none;
+    
+}
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0,0.4);
+    border-radius: 1rem;
+    font-size: 9vmin;
+    color:#2d197d;
+    background-color: #c5a8d3;
+}
+#reset-btn{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #2d197d;
+    color:whitesmoke;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #2d197d;
+    color:whitesmoke;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color:whitesmoke;
+    font-size: 6vmin;
+    margin-bottom:2vmin;
+}
+.msg-container{
+    height:90vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+.hide{
+    display:none;
+}
